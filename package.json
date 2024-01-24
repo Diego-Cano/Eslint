@@ -1,0 +1,35 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "WebServer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/*.js",
+    "test-watch": "mocha --watch"
+  },
+  "keywords": [
+    "Node.js",
+    "npm",
+    "example"
+  ],
+  "author": "Diego Cano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "mocha": "^9.2.2"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diego-Cano/my-node-project"
+  }
+}
